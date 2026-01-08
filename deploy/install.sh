@@ -19,7 +19,7 @@ log_error() { echo -e "${RED}[ERROR]${NC} $1"; exit 1; }
 
 # ========== 配置 ==========
 DOMAIN="crs.flu.qzz.io"
-DEPLOY_DIR="/opt/claude-relay-service"
+DEPLOY_DIR="$HOME/claude-relay-service"
 REPO_URL="https://github.com/Flutter233PM/claude-relay-service.git"
 
 # 提示输入邮箱
